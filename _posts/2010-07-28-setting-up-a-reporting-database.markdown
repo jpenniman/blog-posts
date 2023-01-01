@@ -53,7 +53,7 @@ If you choose to do any of it on the same physical server, make sure the databas
 
 What I typically do is setup replication.  I configure the replicated copy as read-only and use it for all real-time reporting.  I then setup SSIS jobs that read from the copy and denormalize and transform the data into a data warehouse for more complex decision reporting.  These jobs, depending on need, are schedule anywhere from every hour to once a day, week, or month.
 
-<img border="0" src="http://4.bp.blogspot.com/_4F2sW8e1XyU/S_lQE6WcGiI/AAAAAAAAAOM/vinHQ49DH_s/s320/ReportingDB_1.png" width="320" />
+<img border="0" src="blog/images/reportingdb_1.png" width="320" />
 Figure 1
 
 This offers the greatest flexibility and performance across the OLTP and reporting systems.

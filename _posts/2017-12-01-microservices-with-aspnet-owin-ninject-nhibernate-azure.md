@@ -72,7 +72,7 @@ of bloat that's not needed, for us at least. We use swagger, a custom swagger.ui
 so the MVC support and documentation starter that the project template builds out is unnecessary. Select "Empty" and leave
 WebForms, MVC, and WebAPI **unchecked**.
 
-![Empty WebProject Template]({{ "/assets/images/new-empty-webapi.png" | absolute_url }})
+![Empty WebProject Template]({{ "/blog/images/new-empty-webapi.png" | absolute_url }})
 
 ### Setup Ninject, Owin, and WebAPI
 Once we have our blank project, install the `Ninject.Web.WebApi.OwinHost` NuGet package, and if you're hosting on IIS, 

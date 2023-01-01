@@ -24,7 +24,7 @@ Let's start with a simple WCF service and client that we'll use throughout the r
 
 I say simple, but I did want somewhat real world rather than just a "HelloWorld", so if you want to follow along, you'll need the AdventureWorks sample database.
 
-Let's look at a service that an AdventureWorks Cycle customer could use toprogrammaticallycheck the status of an order from their own application.
+Let's look at a service that an AdventureWorks Cycle customer could use to programmatically check the status of an order from their own application.
 
 ``` csharp
 [ServiceContract]
@@ -204,7 +204,7 @@ The WsHttpBinding offers three security modes:
 
 **Transport** is where we can implement SSL/TLS. We can also implement client certificates at the transport level. The advantage to using transport is it's faster. Another advantage is it's interoperable with older frameworks. The major drawback is it's only good for the first hop.
 
-**Message** security allows us to implement client/server certificates. In addition to authenticating the service and consumer, the message itself is also encrypted. This mode falls under the "end-to-end" security models. Since the message is encrypted, communication stays secure from end to end. The drawbacks are performance and interoperability. It requires WS-I*compatibleframeworks that will actually play nice with WCF, so officially, that's WCF and Oracle's Metro stack.
+**Message** security allows us to implement client/server certificates. In addition to authenticating the service and consumer, the message itself is also encrypted. This mode falls under the "end-to-end" security models. Since the message is encrypted, communication stays secure from end to end. The drawbacks are performance and interoperability. It requires WS-I* compatible frameworks that will actually play nice with WCF, so officially, that's WCF and Oracle's Metro stack.
 
 **TransportWithMessageCredential** combines the two, giving us transport level security (SSL/TLS) and end-to-end message level security.
 
@@ -216,7 +216,7 @@ We'll need a total of three (3) certificates for these labs.
 * Server Certificate
 * Client Certificate
 
-We'll be using the makecert utility to create the certificates. You can find more information on creating the certificates here: 
+We'll be using the `makecert` utility to create the certificates. You can find more information on creating the certificates here: 
 
 <a rel="nofollow" href="http://msdn.microsoft.com/en-us/library/ff647171.aspx">http://msdn.microsoft.com/en-us/library/ff647171.aspx</a> <a rel="nofollow" href="http://msdn.microsoft.com/en-us/library/ff648498.aspx">http://msdn.microsoft.com/en-us/library/ff648498.aspx</a> <a rel="nofollow" href="http://msdn.microsoft.com/en-us/library/ff650751.aspx">http://msdn.microsoft.com/en-us/library/ff650751.aspx</a> 
 

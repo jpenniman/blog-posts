@@ -33,7 +33,7 @@ The issues:
 
 On the desktop side of the mobile install...
 
-<img style="margin: 0pt 10px 10px 0pt; float: left; cursor: pointer;" src="http://bp0.blogger.com/_4F2sW8e1XyU/R6y4uvrcXyI/AAAAAAAAAAQ/pApABF0Af10/s320/TTTMX2_error.jpg" alt="" id="BLOGGER_PHOTO_ID_5164705985899290402" border="0" />
+<img style="margin: 0pt 10px 10px 0pt; float: left; cursor: pointer;" src="/blog/images/tttmx2_error.jpg" alt="" id="BLOGGER_PHOTO_ID_5164705985899290402" border="0" />
 
 On the device side...
 
