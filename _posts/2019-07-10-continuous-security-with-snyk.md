@@ -4,7 +4,7 @@ title: Incorporating Snyk into Continuous Integration with Azure Yaml Pipelines
 date: 2019-07-10
 image:  '/images/15.jpg'
 author: Jason M Penniman
-description: Let's take a look at how we can incorporate Snyk into our Azure Pipelines as part of Continuous Security during Continuous Integration.
+excerpt: Let's take a look at how we can incorporate Snyk into our Azure Pipelines as part of Continuous Security during Continuous Integration.
 category: Development
 tags:
 - Azure DevOps
