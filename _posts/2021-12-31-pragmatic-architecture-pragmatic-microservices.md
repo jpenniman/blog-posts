@@ -43,7 +43,7 @@ In a pure DDD approach, we would define our service boundaries around each aggre
 
 You could argue that these are each their own business capability or feature of a payroll system, and should be broken out even under this paradigm. Why not keep it simple and start with a single Payroll Service. It is still doing one thing--Payroll--and doing it well. It keeps the functionality of payroll separate from other functions of the system such as invoicing or book keeping, which means they can evolve independently. Our payroll service also passes the autonomy litmus test--it can be deployed independently of other services. Those individual sub-features that we identified as possible candidates for their own microservices, we can (and should) organize in our code by sub-feature using FDD. This organization makes it easy to reason over--identify what code is doing what--and easier to refactor out into a separate service later if needed.
 
-![monolith](../images/payroll-monolith-example.png)
+![monolith](/blog/images/payroll-monolith-example.png)
 
 So to review:
 
@@ -61,7 +61,7 @@ Since our code is SOLID and well organized around FDD with clearly defined featu
 
 Our Payroll Module is now two decoupled services. Because they communicate asynchronously on a queue and have no knowledge of the other's existence, they can retain their deployment and evolutionary autonomy.
 
-![worker](../images/payroll-worker-example.png)
+![worker](/blog/images/payroll-worker-example.png)
 
 We can now scale the PayrollWorker, as needed, independent of the rest of the payroll system. We kept life simple and only introduced complexity where it benefitted the customer. The other operations and capabilities within the payroll service are primarily CRUD related--data maintenance--so there is little pragmatic reason break these out and introduce unnecessary complexity into our system.  
 

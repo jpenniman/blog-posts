@@ -3,6 +3,7 @@ layout: post
 title: My Experience with JetBrains Rider
 date: 2020-07-02
 author: Jason M Penniman
+image: /blog/images/rider.png
 excerpt: I've been using JetBrains Rider for a bit. Here's my impressions on the popular IDE for dotnet.
 tags:
 - dotnet
