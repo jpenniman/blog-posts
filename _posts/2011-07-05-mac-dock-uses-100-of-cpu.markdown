@@ -3,6 +3,7 @@ layout: post
 title: Mac Dock Uses 100% of CPU
 date: 2011-07-05 07:20:00.000000000 -04:00
 author: Jason M Penniman
+image: /blog/images/blank-tile.png
 excerpt: I noticed the fans in my Macbook Pro were running excessively.  When
   looking at Activity Monitor, I noted that the Dock was using 100% of the CPU.  A
   quick search on Google, and I found the culprit to be Parallels.  The root

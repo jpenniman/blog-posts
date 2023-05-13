@@ -2,6 +2,7 @@
 layout: post
 title: Test Driven Development (TDD) Simplified
 date: 2022-08-07
+image: /blog/images/tdd.png
 author: Jason M Penniman
 excerpt: Test Driven Development (TDD) is a development/design approach in which we write our tests first, then implement the code to make these tests pass. These initial tests we write are not unit tests in the traditional sense. I'll repeat that... TDD tests are not unit tests.
 tags:

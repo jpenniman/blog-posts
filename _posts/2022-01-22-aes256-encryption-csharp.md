@@ -3,6 +3,7 @@ layout: post
 title: AES256 Encryption in C#
 date: 2022-01-22
 author: Jason M Penniman
+image: /blog/images/aes.jpg
 excerpt: Every few years, I find myself having to write an AES256 encryption routine for a project. I always end up having to lookup the specifics, so I thought I would write it down this time.
 tags:
 - dotnet

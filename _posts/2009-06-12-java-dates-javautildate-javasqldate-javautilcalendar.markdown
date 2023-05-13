@@ -2,6 +2,7 @@
 layout: post
 title: 'Java Dates:  java.util.Date, java.sql.Date, java.util.Calendar'
 date: 2009-06-12 07:55:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: Working with dates in Java (though not limited to Java) has always been a
   nightmare.  There are lots of good articles out there in Google Land on the topic,

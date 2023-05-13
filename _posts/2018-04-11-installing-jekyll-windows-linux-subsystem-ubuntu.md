@@ -2,6 +2,7 @@
 layout: post
 title: Installing Jekyll on Windows Subsystem for Linux - Ubuntu 16.04 
 date: 2018-04-11
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: A quick guide on installing Jekyll on Windows Subsystem for Linux (formally Bash on Windows) Ubuntu 16.04 on Windows 10.
 category: Development

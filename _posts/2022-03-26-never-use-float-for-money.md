@@ -3,6 +3,7 @@ layout: post
 title: Never use float for money
 date: 2022-03-26
 author: Jason M Penniman
+image: /blog/images/money.jpg
 excerpt: The web is riddled with articles on this very topic, yet it bares repeating--never use float for money. I repeat--never never never never never use a floating point data type to represent monetary values or do financial math. So how do we handle money?
 tags:
 - dotnet

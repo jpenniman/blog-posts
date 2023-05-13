@@ -3,6 +3,7 @@ layout: post
 title: Disaster Recovery
 date: 2009-08-12 02:04:25.000000000 -04:00
 author: Blog
+image: /blog/images/blank-tile.png
 excerpt: During a severe thunderstorm one night, your building loses power.  The once thought to be defunct generator mounted to the roof just above your data center detects the outage and make its attempt to start up...
 category: General-IT
 ---

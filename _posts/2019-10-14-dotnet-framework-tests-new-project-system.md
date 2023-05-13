@@ -2,6 +2,7 @@
 layout: post
 title: .Net Full Framework Tests with the New Project System
 date: 2019-10-14
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: The new project system in the dotnet tooling can be used to build and test .Net Framework targets too.
 tags:

@@ -3,6 +3,7 @@ layout: post
 title: Using Multiple Active Result Sets (MARS) in SQL Server
 joomla_id: 16
 joomla_url: using-multiple-active-result-sets-mars-in-sql-server
+image: /blog/images/blank-tile.png
 date: 2008-09-27 14:47:00.000000000 -04:00
 author: Jason M Penniman
 excerpt: A lot of ground was covered in connecting our TellerUI to the database.

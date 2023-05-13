@@ -2,6 +2,7 @@
 layout: post
 title: OneWay vs Async in WCF
 date: 2013-11-16 14:35:00.000000000 -05:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: "<p>On a recent project, there was some debate about the behavior of OneWay OperationContracts,
   so I thought I'd put together a little example. Specifically, the debate centered

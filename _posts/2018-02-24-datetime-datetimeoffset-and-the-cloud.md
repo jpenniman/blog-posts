@@ -2,6 +2,7 @@
 layout: post
 title: C# DateTime, DateTimeOffset and the Cloud
 date: 2018-02-23
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: In this article, we'll take a look at the challenges that arise when deploying applications that use System.DateTime to cloud providers like Azure and AWS.
 category: Development

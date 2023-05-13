@@ -2,6 +2,7 @@
 layout: post
 title: Code Coverage for Multiple Projects in a Single Build using Dotnet Test and Coverlet
 date: 2019-10-14
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: Let's talk a look at aggregating code coverage results from multiple test projects into a single report for upload to Azure DevOps.
 tags:

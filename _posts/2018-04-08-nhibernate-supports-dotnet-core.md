@@ -2,6 +2,7 @@
 layout: post
 title: NHibernate Releases 5.1 with support for .Net Core and .NetStandard 2.0 
 date: 2018-04-08
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: The NHibernate Team has released 5.1 with support for .Net Core 2.0, ASP.Net Core 2.0 and .NetStandard 2.0.
 category: Development

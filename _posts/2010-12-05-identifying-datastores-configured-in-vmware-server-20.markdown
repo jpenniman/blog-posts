@@ -2,6 +2,7 @@
 layout: post
 title: Identifying Datastores Configured in VMware Server 2.0
 date: 2010-12-05 09:52:00.000000000 -05:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: I ran into the need to start a VMware Server 2.0 virtual machine from the command line.  The vmrun command uses the data store name to locate the vmx file. Unfortunately, the system documentation wasn't readily available, so I needed to determine what stores were configured...
 category: General-IT

@@ -4,6 +4,7 @@ title: Installing MySQL 5.5 on Mac OS X 10.6
 joomla_id: 34
 joomla_url: installing-mysql-55-on-mac-os-x-106
 date: 2010-12-24 08:25:00.000000000 -05:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: Or should I say "unable to install MySQL 5.5 on Mac OS X".  My first attempt at installing MySQL on Mac was with MySQL 5.1 on Snow Leopard.  That worked as expected and without any issues.  MySQL 5.5, however, was a bit tricky...
 category: Database

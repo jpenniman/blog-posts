@@ -2,6 +2,7 @@
 layout: post
 title: Hypervisor and Host Upgrade at Milestone
 date: 2011-01-03 08:53:00.000000000 -05:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: <p>It was time to upgrade the virtual machine host at Milestone.  Since most of our critical systems are hosted, the server(s) here didn't need to be anything to extreme. The servers in house are development and test lab related. The goals for the upgrade were to:</p><div><ul><li>Upgrade the hardware</li><li>Go Green</li><li>Experiment with various hypervisors to see which ones can be used in SOHO environments with low investment, low TCO, high ROI, and little or no headache when it comes to install and maintenance.</li></ul></div>
 category: General-IT

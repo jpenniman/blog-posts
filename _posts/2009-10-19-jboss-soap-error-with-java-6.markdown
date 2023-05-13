@@ -2,6 +2,7 @@
 layout: post
 title: JBoss SOAP error with Java 6
 date: 2009-10-19 16:55:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: Error message "setProperty must be overridden by all subclasses
   of SOAPMessage". After reading this Jira issue...

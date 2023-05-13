@@ -3,6 +3,7 @@ layout: post
 title: Using Azure Service Bus Shared Access Signature with NetMessagingBinding in  WCF
 date: 2013-07-16 13:35:00.000000000 -04:00
 author: Jason M Penniman
+image: /blog/images/blank-tile.png
 excerpt: I Googled, Binged, and scoured internet and various documentation and could
   not find this setting. &nbsp;I was able to reverse engineer the declarative markup
   based on the properties in the classes and code samples.<br />If you want to use

@@ -3,6 +3,7 @@ layout: post
 title: Using PDB (Debug Symbols) When Compiling in Release Mode
 date: 2011-03-07 09:45:00.000000000 -05:00
 author: Jason M Penniman
+image: /blog/images/blank-tile.png
 excerpt: Bit by yet another not-so-well documented "feature" in Microsoft .Net. &nbsp;We
   were compiling in release mode for QA, since we've seen other behavioral differences
   between debug and release. &nbsp;We also wanted to emit the line numbers in the

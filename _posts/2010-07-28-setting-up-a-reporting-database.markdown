@@ -2,6 +2,7 @@
 layout: post
 title: Setting Up a Reporting Database
 date: 2010-07-28 14:32:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: 'Using a live OLTP database for complex reporting has a significant performance impact on the OLTP application.  A common architectural design is to have a separate reporting database from your application''s OLTP database...'
 category: Database

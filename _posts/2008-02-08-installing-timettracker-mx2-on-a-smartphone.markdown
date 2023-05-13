@@ -2,6 +2,7 @@
 layout: post
 title: Installing TimeTTracker MX2 on a Smartphone
 date: 2008-02-08 12:52:00.000000000 -05:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: Installing TimeTTracker MX2 on a UT Starcom X5800 smartphone... Here's some background...
 category: General-IT

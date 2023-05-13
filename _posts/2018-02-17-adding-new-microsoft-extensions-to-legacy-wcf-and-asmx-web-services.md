@@ -2,6 +2,7 @@
 layout: post
 title: Adding New Microsoft Extensions to Legacy WCF and ASMX Web Services
 date: 2018-02-17
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: In this article, We'll look at how to use new Microsoft.Extensions.* in a legacy WCF and ASP.Net Web Services (ASMX) applications.
 category: Development

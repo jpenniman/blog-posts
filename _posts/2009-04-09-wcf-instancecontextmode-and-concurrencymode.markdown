@@ -2,6 +2,7 @@
 layout: post
 title: WCF InstanceContextMode and ConcurrencyMode
 date: 2009-04-09 14:28:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: I recently ran into a concurrency issue with WCF on a customer's system.  I'll get into the details later (though not too much detail... NDA ;) ), but it involved some testing of the various combinations of InstanceContextMode and ConcurrencyMode settings for a WCF service...
 category: Development

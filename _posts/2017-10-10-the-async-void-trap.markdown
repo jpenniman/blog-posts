@@ -2,6 +2,7 @@
 layout: post
 title: The Async/Void Trap
 date: 2017-10-10 21:31:39.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: <p>I'll start by saying, you should ALWAYS avoid async/void. Now, I'm sure there are edge cases, but the reality is you can get into a lot of trouble with async/void.</p>
 category: Development

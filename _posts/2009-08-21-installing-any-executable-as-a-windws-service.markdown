@@ -2,6 +2,7 @@
 layout: post
 title: Installing Any Executable as a Windows Service
 date: 2009-08-21 12:07:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: I'll clean this up later, but in short...
 category: General-IT

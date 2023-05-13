@@ -2,6 +2,7 @@
 layout: post
 title: Close 'Em Plug-In For Visual Studio
 joomla_id: 52
+image: /blog/images/blank-tile.png
 joomla_url: close-braces-vs
 date: 2010-10-17 17:41:00.000000000 -04:00
 author: Jason M Penniman

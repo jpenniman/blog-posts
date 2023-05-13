@@ -3,6 +3,7 @@ layout: post
 title: Breaking the Row Size Limit in SQL Server
 date: 2009-12-10 19:39:00.000000000 -05:00
 author: Jason M Penniman
+image: /blog/images/blank-tile.png
 excerpt: Microsoft SQL Server, as of version 9.0 (2005), allows you to cheat the max row size limit of 8K. If we have a row of variable length data types (ie. varchar), the total byte count can be more than 8K. SQL Server will magically spill the data over to the next page. Cool right? Well...
 category: Blog
 ---

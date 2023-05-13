@@ -2,6 +2,7 @@
 layout: post
 title: Building Microservices with Asp.Net WebAPI, Owin, Ninject, NHibernate, and Azure
 date: 2017-12-01
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: We've been building microservices here for a while, so I thought I'd share how we do it.
 category: Development

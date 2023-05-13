@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Building Microservices with Asp.Net WebAPI, Owin, Ninject, NHibernate, and Azure -- Part 2: Error Responses and Exception' 
+image: /blog/images/blank-tile.png
 date: 2018-03-04
 author: Jason M Penniman
 excerpt: In this installment, we'll look at exception handling and error responses.

@@ -2,6 +2,7 @@
 layout: post
 title: VS 2017 dotnet publish fails in Team Foundation Services
 date: 2017-09-20 23:47:37.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: <p>We had an interesting problem after upgrading an ASP.Net Core project from project.json to VS 2017 csproj. The build broke. A little background...</p>
 category: Blog

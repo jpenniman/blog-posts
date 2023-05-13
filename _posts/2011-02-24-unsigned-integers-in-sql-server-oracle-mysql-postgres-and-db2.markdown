@@ -2,6 +2,7 @@
 layout: post
 title: Unsigned Integers in SQL Server, Oracle, MySQL, Postgres, and DB2
 date: 2011-02-24 15:33:00.000000000 -05:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: A recent project required the need to store an unsigned 64-bit integer in
   a SQL Server database table. BIGINT won't cut it because BIGINT has a max value

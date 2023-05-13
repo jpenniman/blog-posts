@@ -3,6 +3,7 @@ layout: post
 title: Using NHibernate in Asp.Net Core
 date: 2019-07-05
 author: Jason M Penniman
+image: /blog/images/blank-tile.png
 excerpt: In this article, I'll set up a basic Asp.Net Core microservice with NHibernate.
 category: Development
 tags:

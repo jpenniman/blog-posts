@@ -4,6 +4,7 @@ title: Fun with SOA Security, WCF, Windows Azure Service Bus, and BizTalk
 joomla_id: 57
 joomla_url: fun-with-soa-security-wcf-windows-azure-service-bus-and-biztalk
 date: 2012-04-22 10:02:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: I've been having some fun lately on an integration project involving and
   on-premises BizTalk 2010 implementation and the Windows Azure Service Bus. We've

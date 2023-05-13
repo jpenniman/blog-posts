@@ -2,6 +2,7 @@
 layout: post
 title: A .Net Development Rig in Linux
 date: 2020-07-02
+image: /blog/images/ubuntu-rider.png
 author: Jason M Penniman
 excerpt: After playing with Rider for a while, I decided to play around with Linux again to see what .Net development is like on Linux rig in 2020. So I fired up an Ubuntu 20.04 LTS VM and started installing.
 tags:
@@ -65,7 +66,7 @@ For collaboration, back in the App Store, I installed Slack. Because I can, I al
 
 Voila!
 
-![rider-ubuntu](../images/ubuntu-rider.png)
+![rider-ubuntu](/blog/images/ubuntu-rider.png)
 
 Much easier than it used to be since Canonical created their SnapCraft App Store. It actually took me less time than it usually does to build a Windows machine.
 I haven't worked in this environment a lot yet, but from what I have done, the experience is snappy and clean. All the tools behave and are as smooth as they are on my Windows laptop, except for Teams. Teams in still in preview, isn't quite at feature parity yet, and isn't 100% stable, but hey, it's an official Microsoft Office App on Linux! So that's something.

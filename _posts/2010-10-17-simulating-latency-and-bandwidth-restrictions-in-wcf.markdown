@@ -2,6 +2,7 @@
 layout: post
 title: Simulating Latency and Bandwidth Restrictions in WCF
 date: 2010-10-17 19:06:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: If you're developing WCF applications that will run over a WAN, VPN, or
   the public internet, then network bandwidth and latency is a concern. Messages take

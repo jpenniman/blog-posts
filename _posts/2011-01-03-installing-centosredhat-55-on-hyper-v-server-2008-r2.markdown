@@ -2,6 +2,7 @@
 layout: post
 title: Installing CentOS/RedHat 5.5 on Hyper-V Server 2008 R2
 date: 2011-01-03 08:30:00.000000000 -05:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: CentOS/Red Hat 5.5 on Hyper-V R2 seems to work quite well.  The trick is to download the Linux Integration Services from Microsoft and follow the install guide before creating the VM.  The guide provides specific installation guidelines for creating/configuring the VM and installing the OS itself...
 category: General-IT

@@ -2,6 +2,7 @@
 layout: post
 title: Singleton vs. Static Class
 date: 2010-05-16 00:14:14.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: <p>I'm often asked “Why create a Singleton when a Static Class does the same thing?”.  Well, while using a Singleton vs a Static Class may seem to be the “same thing”, they are quite different.  There are pros and cons to both, and each has it's place in an application.  To understand the difference, let's first take a look at memory allocation.  Then we'll look at memory implications, state and synchronization, and some caveats as to the use and behavior of the two.</p>
 category: Development

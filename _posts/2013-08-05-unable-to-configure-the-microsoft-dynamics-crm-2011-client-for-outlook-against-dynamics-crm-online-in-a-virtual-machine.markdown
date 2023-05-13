@@ -3,6 +3,7 @@ layout: post
 title: Unable to Configure the Microsoft Dynamics CRM 2011 Client for Outlook against
   Dynamics CRM Online in a Virtual Machine
 date: 2013-08-05 06:41:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: 'I came across the error in this article when trying to configure the CRM
   client for Outlook...<br /><span style="background-color: white; color: #333333;

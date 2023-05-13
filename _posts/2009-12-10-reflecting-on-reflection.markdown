@@ -2,6 +2,7 @@
 layout: post
 title: Reflecting on Reflection
 date: 2009-12-10 19:21:00.000000000 -05:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: I was approached by a developer suggesting a reflection routine for taking
   values from a data transfer object and populating a business entity and vice versa.  He argued that writing a TransferObjectAssembler for each DTO was too time consuming, and would be better suited with a reflection routine. My response...

@@ -2,6 +2,7 @@
 layout: post
 title: Configuration Reload in .Net
 date: 2022-05-12
+image: /blog/images/config.png
 author: Jason M Penniman
 excerpt: The 12 Factor App guidelines suggest separating configuration from code as a best practice. More specifically, it should be deployed separately as well. We shouldn't have to redeploy the entire application in order to make a configuration change. Ideally, we don't want to have to restart our app either.  This eliminates downtime when making configuration changes that don't otherwise require downtime such as timeout values, retry configuration, logging level, and distributed trace sampling rate.
 tags:

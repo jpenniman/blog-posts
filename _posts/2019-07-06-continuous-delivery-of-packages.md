@@ -3,6 +3,7 @@ layout: post
 title: Continuous Delivery of NuGet Packages with Azure Yaml Pipelines
 date: 2019-07-06
 author: Jason M Penniman
+image: /blog/images/blank-tile.png
 excerpt: Let's take a look at an approach to building, versioning, and delivering Nuget packages with Azure Pipelines.
 category: Development
 tags:

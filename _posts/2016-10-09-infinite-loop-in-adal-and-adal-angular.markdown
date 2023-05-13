@@ -2,6 +2,7 @@
 layout: post
 title: Infinite loop in ADAL and ADAL-ANGULAR
 date: 2016-10-09 18:55:54.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M. Penniman
 excerpt: In a recent project we came across in issue where ADAL would go into an infinite loop when renewing a token.  It's a known issue with many causes/fixes, some of which were bugs fixed in the 1.11 release...
 category: Blog

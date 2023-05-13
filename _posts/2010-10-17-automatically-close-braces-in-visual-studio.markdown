@@ -2,6 +2,7 @@
 layout: post
 title: Automatically Close Braces in Visual Studio
 date: 2010-10-17 17:41:00.000000000 -04:00
+image: /blog/images/blank-tile.png
 author: Jason M Penniman
 excerpt: 'If you''re an Eclipse or Netbeans user, you''ll be very familiar with this
   topic.  These IDEs automatically close braces, parenthesis, quotes, and brackets
