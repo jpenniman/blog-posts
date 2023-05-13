@@ -2,6 +2,7 @@
 layout: post
 title: Using Linux Fulltime on my Surface Book
 date: 2022-08-29
+image: /blog/images/ubuntu-rider.png
 author: Jason M Penniman
 excerpt: As much as I do like Windows 11, I don't like how Windows and Office are now filled with ads and privacy really isn't front and center. Yes, you can turn a lot of data sharing off, but not all of it. A couple years ago I test-drove Linux as a development rig and was very impressed with the experience. So, I decided to take another look at Linux for daily use.
 tags:
