@@ -130,16 +130,16 @@ And the cleaned up App.config:
     </services>
   </system.serviceModel>
   <connectionStrings>
-    <add name="AdventureWorksEntities" connectionString="metadata=res://*/Entities.OrderDataModel.csdl|res://*/Entities.OrderDataModel.ssdl|res://*/Entities.OrderDataModel.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=.\sql2008r2;initial catalog=AdventureWorks;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&amp;quot;" providerName="System.Data.EntityClient"/>
+    <add name="AdventureWorksEntities" connectionString="metadata=res://*/Entities.OrderDataModel.csdl|res://*/Entities.OrderDataModel.ssdl|res://*/Entities.OrderDataModel.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=localhost;initial catalog=AdventureWorks;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&amp;quot;" providerName="System.Data.EntityClient"/>
   </connectionStrings>
 </configuration>
 ```
 
 Ok, server complete. A build and run should get you a running service host that you can point your browser to and view the WSDL. 
 
-And now the client: 
+And now the client:
 
-Add a service reference to the service we just created, then create a simple client app: 
+Add a service reference to the service we just created, then create a simple client app:
 
 ``` csharp
 static void Main(string[] args)
@@ -165,7 +165,8 @@ private static void OrderServiceTest()
 } 
 ```
 
-And the client's cleaned up app.config: 
+And the client's cleaned up app.config:
+
 ``` xml
 <? xml version="1.0" encoding="utf-8" ?>
 <configuration>
@@ -225,7 +226,7 @@ Some details that have hung me up in the past... make sure the keys are exportab
 
 **Root Authority**
 
-The root authority certificate is self-signed and installed into the Trusted Root store. 
+The root authority certificate is self-signed and installed into the Trusted Root store.
 
 ``` sh
 makecert -pe -n"CN=MilestoneDevCA" -ss Root -sr LocalMachine -a sha1 -sky signiture -r -sv MilestoneDevCA.pvk MilestoneDevCA.cer
@@ -296,7 +297,7 @@ With the certificates created and installed, we're ready to configure our little
     </services>
   </system.serviceModel>
   <connectionStrings>
-    <add name="AdventureWorksEntities" connectionString="metadata=res://*/Entities.OrderDataModel.csdl|res://*/Entities.OrderDataModel.ssdl|res://*/Entities.OrderDataModel.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=.\sql2008r2;initial catalog=AdventureWorks;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&amp;quot;" providerName="System.Data.EntityClient"/>
+    <add name="AdventureWorksEntities" connectionString="metadata=res://*/Entities.OrderDataModel.csdl|res://*/Entities.OrderDataModel.ssdl|res://*/Entities.OrderDataModel.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=localhost;initial catalog=AdventureWorks;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&amp;quot;" providerName="System.Data.EntityClient"/>
   </connectionStrings>
 </configuration>
 ```
@@ -389,7 +390,7 @@ You'll notice that I've set the certificateValidationMode to "None". This is a w
     </services>
   </system.serviceModel>
   <connectionStrings>
-    <add name="AdventureWorksEntities" connectionString="metadata=res://*/Entities.OrderDataModel.csdl|res://*/Entities.OrderDataModel.ssdl|res://*/Entities.OrderDataModel.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=.\sql2008r2;initial catalog=AdventureWorks;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&amp;quot;" providerName="System.Data.EntityClient"/>
+    <add name="AdventureWorksEntities" connectionString="metadata=res://*/Entities.OrderDataModel.csdl|res://*/Entities.OrderDataModel.ssdl|res://*/Entities.OrderDataModel.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=localhost;initial catalog=AdventureWorks;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&amp;quot;" providerName="System.Data.EntityClient"/>
   </connectionStrings>
 </configuration>
 ```

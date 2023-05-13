@@ -26,11 +26,11 @@ Let's take a feature and a scenario: Vendor Lookup
 Feature: Users can search for Vendors in the system.
 
 Scenario: Search by a company name beginning with the search term.
-	Given the following vendors
-		| CompanyName |
-		| Acme Supply |
-	When the company name begins with the term "Acme"
-	Then then 1 record should be returned: "Acme Supply".
+  Given the following vendors
+    | CompanyName |
+    | Acme Supply |
+  When the company name begins with the term "Acme"
+  Then then 1 record should be returned: "Acme Supply".
 ```
 
 We know we need to build a component with an API that allows us to search for a vendor whose company name starts with the term provided. What should this API look like? How do we want developers to interact with this API? What type should it return: the domain entity? a summarized projection? What collection type should it return: an array? a List? an observable stream? Do we want an interface or just a class implementation? Let's write a test to answer those questions.

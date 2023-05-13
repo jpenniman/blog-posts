@@ -21,7 +21,7 @@ I spent some time debugging the original design. The solution was a setting in t
 The new connection string in the App.config looks like this...
 
 ``` xml
-<add name="acme" connectionstring="server=localhost\sqlexpress;database=acmebank;integrated security=SSPI;MultipleActiveResultSets=True" />
+<add name="acme" connectionstring="server=localhost;database=acmebank;integrated security=SSPI;MultipleActiveResultSets=True" />
 ```
 
 ## Multiple Active Result Sets (MARS)

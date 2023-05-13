@@ -10,5 +10,5 @@ category: General-IT
 I'll clean this up later, but in short:
 
 1. Download SrvAny.exe as part of the Windows server resource kit here: <a href="http://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd&amp;displaylang=en">http://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd&amp;displaylang=en</a>
-2. Run: InstSrv.exe yourservicename "d:\pathtosrvany\svrany.exe"
+2. Run: InstSrv.exe yourservicename "D:/pathtosrvany/svrany.exe"
 3. Edit the registry entry for the newly created service and add a "Parameters" key called "Application".  Set the value to the full path of your executable.
