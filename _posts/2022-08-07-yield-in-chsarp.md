@@ -3,6 +3,7 @@ layout: post
 title: Yield in C#
 date: 2022-08-07
 author: Jason M Penniman
+image: /blog/images/yield.png
 excerpt: The yield keyword is used when the method or accessor is an enumerator. Using yield return returns one element at a time.
 tags:
 - dotnet

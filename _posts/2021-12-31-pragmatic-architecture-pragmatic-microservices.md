@@ -3,6 +3,7 @@ layout: post
 title: Pragmatic Architecture. Pragmatic Microservices.
 date: 2021-12-31
 author: Jason M Penniman
+image: /blog/images/pragmatic.jpg
 excerpt: It seems the big debate lately is monolith vs microservices. Academically, each at the opposite end of the spectrum--the massive, single deployable unit monolith on one end and the highly decomposed highly distributed microservices on the other. Each come with their pros and cons and serve teams better depending on team size, skill level, and goals.
 tags:
 - microservices
