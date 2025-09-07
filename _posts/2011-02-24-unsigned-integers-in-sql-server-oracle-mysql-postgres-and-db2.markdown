@@ -9,6 +9,8 @@ excerpt: A recent project required the need to store an unsigned 64-bit integer 
   of 9,223,372,036,854,775,807 (signed 64-bit integer), and the unsigned
   64-bit integer's max value is 18,446,744,073,709,551,615.  The solution...
 category: Development
+tags:
+- SQL Server
 ---
 A recent project required the need to store an unsigned 64-bit integer in a SQL Server database table. BIGINT won't cut it because BIGINT has a max value of 9,223,372,036,854,775,807 (signed 64-bit integer), and the unsigned 64-bit integer's max value is 18,446,744,073,709,551,615.  The solution is to use NUMERIC(20) instead.
 
