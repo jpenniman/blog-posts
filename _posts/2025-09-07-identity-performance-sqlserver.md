@@ -4,8 +4,7 @@ title: Identity Performance in Microsoft SQL Server
 date: 2025-09-07
 image: /blog/images/id-perf.png
 author: Jason M Penniman
-excerpt: Out of curiosity, I wanted to see what offered the best performance when inserting records: 
-  database generated or application generated ids.
+excerpt: "Out of curiosity, I wanted to see what offered the best performance when inserting records: database generated or application generated ids."
 tags:
 - dotnet
 - C#
