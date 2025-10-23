@@ -2,7 +2,7 @@
 layout: post
 title: Tortis IAM - Making it work
 date: 2025-10-01
-image: /blog/images/blank-tile.png
+image: /blog/images/iam-wip.jpg
 author: Jason M Penniman
 excerpt: 
   Earlier this year, I set out to build an IAM solution. In this article, I discuss my experience and findings in
