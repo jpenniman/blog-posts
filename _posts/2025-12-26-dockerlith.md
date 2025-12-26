@@ -22,7 +22,7 @@ peak request volume. So our deployment diagram would look something like figure 
 
 <ins>**Figure 1**</ins>
 
-[Figure 1](/blog/images/monolith-deployment.png)
+![Figure 1](/blog/images/monolith-deployment.png)
 
 Let's compare and contrast how we would traditionally deploy this type of application with how we could do it using
 Docker.
