@@ -20,12 +20,13 @@ maintain, and extend. In this article we’ll explore why clarity wins, how to a
 development, and look at some concrete code examples that illustrate the trade‑off.
 
 ## Why Cleverness Is a Double‑Edged Sword
-|Aspect            |Clever Code                                           |Clear Code|
-|------------------|------------------------------------------------------|----------|
-Readability        |Requires mental gymnastics to understand intent.      |Expresses intent directly; future readers (including yourself) grasp it instantly.|
-Debugging          |Hidden side‑effects or subtle bugs are hard to locate.|Straightforward flow makes stepping through a debugger painless.|
-Team Collaboration |New team members spend extra time deciphering tricks. |Everyone can contribute confidently without a steep learning curve.|
-Refactoring        |Small changes risk breaking hidden assumptions.       |Simple, modular pieces adapt gracefully to new requirements.|
+
+|Aspect             |Clever Code                                           |Clear Code|
+|-------------------|------------------------------------------------------|----------|
+|Readability        |Requires mental gymnastics to understand intent.      |Expresses intent directly; future readers (including yourself) grasp it instantly.|
+|Debugging          |Hidden side‑effects or subtle bugs are hard to locate.|Straightforward flow makes stepping through a debugger painless.|
+|Team Collaboration |New team members spend extra time deciphering tricks. |Everyone can contribute confidently without a steep learning curve.|
+|Refactoring        |Small changes risk breaking hidden assumptions.       |Simple, modular pieces adapt gracefully to new requirements.|
 
 Even seasoned engineers admit that a clever snippet that works today can become a nightmare tomorrow. The cost of
 maintaining such code usually outweighs any short‑term elegance gains. Code should be very easy to reason over with
