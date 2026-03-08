@@ -12,7 +12,7 @@ tags:
 - component-based design
 ---
 
-> Write simple parts connected by clean interfaces.
+> **Rule of Modularity:** Write simple parts connected by clean interfaces.
 
 The Rule of Modularity is a design principle that encourages us to break a system into small, self‑contained pieces—often called modules or components—and connect those pieces through well‑defined, minimal interfaces.
 

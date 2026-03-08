@@ -1,16 +1,16 @@
 ---
 layout: post
-title: The Rule of Clarity: Why “Clear” Beats “Clever” Every Time
+title: "The Rule of Clarity"
 date: 2026-03-08
 image: /blog/images/02-rule-of-clarity.png
 author: Jason M Penniman
-excerpt: In software development we’re constantly tempted to write code that dazzles—dense one‑liners, clever recursion 
-         tricks, or obscure LINQ pipelines. While those solutions can be impressive in a code review, they often become
-         liabilities later on. The Rule of Clarity reminds us that clarity is always preferable to cleverness.
+excerpt: "The Rule of Clarity: Clarity Is Better Than Cleverness"
 tags:
 - software engineering
 - unix philosophy
 ---
+
+> **The Rule of Clarity:** Clarity Is Better Than Cleverness
 
 ## Introduction
 In software development we’re constantly tempted to write code that dazzles—dense one‑liners, clever recursion tricks, 
