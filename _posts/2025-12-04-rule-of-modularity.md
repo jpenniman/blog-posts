@@ -10,6 +10,7 @@ tags:
 - C#
 - software design
 - component-based design
+- unix philosophy
 ---
 
 > **Rule of Modularity:** Write simple parts connected by clean interfaces.
