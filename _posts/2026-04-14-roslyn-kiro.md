@@ -11,6 +11,8 @@ tags:
 - kiro
 ---
 
+> Updated to include the Windows version of the CLI.
+
 ## Problem:
 
 You're using Kiro-CLI from Amazon to build .Net application written in C#. Alas, Kiro CLI doesn't support C# out of the
@@ -42,6 +44,8 @@ If you haven't already, initialize the code integration tool. Inside the kiro-cl
 
 Edit .kiro/settings/lsp.json and add (or merge) the following lsp config:
 
+For Linux/MacOS:
+
 ```json
 {
     "csharp": {
@@ -56,6 +60,24 @@ Edit .kiro/settings/lsp.json and add (or merge) the following lsp config:
         "**/obj/**"
       ]
     }
+}
+```
+
+For Windows, to work around a limitation with Rust's ability to run scripts directly,
+we have run `cmd` and pass the script as a parameter:
+
+```json
+"csharp": {
+  "name": "roslyn-lsp",
+  "command": "cmd",
+  "args": ["/C", "roslyn-language-server", "--autoLoadProjects", "--stdio"],
+  "file_extensions": ["cs"],
+  "project_patterns": ["*.csproj", "*.slnx"],
+  "multi_workspace": true,
+  "exclude_patterns":[
+    "**/bin/**",
+    "**/obj/**"
+  ]
 }
 ```
 
